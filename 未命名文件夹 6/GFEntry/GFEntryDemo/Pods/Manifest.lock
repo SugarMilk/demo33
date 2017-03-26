@@ -1,0 +1,18 @@
+PODS:
+  - GFDemoChartView (0.3.1-dev):
+    - GFLogger (= 0.1.0)
+  - GFLogger (0.1.0):
+    - iConsole (~> 1.5.3)
+  - iConsole (1.5.3)
+
+DEPENDENCIES:
+  - GFDemoChartView (= 0.3.1-dev)
+
+SPEC CHECKSUMS:
+  GFDemoChartView: 9b73f30f5579ea2b21e51f2db8559b60180abd2b
+  GFLogger: ab13bed23c601be95b3ae12957b5b1c53a199a83
+  iConsole: 823d9b14ac90f0a2a4fc9bf6a973a03ba9c4c7eb
+
+PODFILE CHECKSUM: f75c97eb3d7ceaf049d29ea701368a867f23ff8c
+
+COCOAPODS: 1.2.0

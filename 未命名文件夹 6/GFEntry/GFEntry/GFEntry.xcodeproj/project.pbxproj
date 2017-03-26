@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8E46581E836065009864B9 /* libDeviceUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8E46571E836065009864B9 /* libDeviceUtil.a */; };
+		7E8E465A1E836068009864B9 /* libGFPersistence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8E46591E836068009864B9 /* libGFPersistence.a */; };
+		7E8E465C1E836091009864B9 /* libGFKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8E465B1E836091009864B9 /* libGFKeychain.a */; };
+		7E8E465E1E836094009864B9 /* libGFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8E465D1E836094009864B9 /* libGFNetworking.a */; };
+		7E8E46601E8362D8009864B9 /* libMMPlaceHolder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8E465F1E8362D8009864B9 /* libMMPlaceHolder.a */; };
+		7E8E46661E8393BD009864B9 /* GFEntryStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E46651E8393BD009864B9 /* GFEntryStyle.m */; };
+		7E9904F41E826096000D3D8F /* GFAgreementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904CF1E826096000D3D8F /* GFAgreementViewController.h */; };
+		7E9904F51E826096000D3D8F /* GFAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904D01E826096000D3D8F /* GFAgreementViewController.m */; };
+		7E9904F61E826096000D3D8F /* GFMobilePhoneLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904D21E826096000D3D8F /* GFMobilePhoneLoginView.h */; };
+		7E9904F71E826096000D3D8F /* GFMobilePhoneLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904D31E826096000D3D8F /* GFMobilePhoneLoginView.m */; };
+		7E9904F81E826096000D3D8F /* GFMobilePhoneLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904D41E826096000D3D8F /* GFMobilePhoneLoginViewController.h */; };
+		7E9904F91E826096000D3D8F /* GFMobilePhoneLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904D51E826096000D3D8F /* GFMobilePhoneLoginViewController.m */; };
+		7E9904FA1E826096000D3D8F /* GFTouristRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904D71E826096000D3D8F /* GFTouristRegisterView.h */; };
+		7E9904FB1E826096000D3D8F /* GFTouristRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904D81E826096000D3D8F /* GFTouristRegisterView.m */; };
+		7E9904FC1E826096000D3D8F /* GFTouristRegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904D91E826096000D3D8F /* GFTouristRegisterViewController.h */; };
+		7E9904FD1E826096000D3D8F /* GFTouristRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904DA1E826096000D3D8F /* GFTouristRegisterViewController.m */; };
+		7E9904FE1E826096000D3D8F /* GFUserListLoginPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904DC1E826096000D3D8F /* GFUserListLoginPopView.h */; };
+		7E9904FF1E826096000D3D8F /* GFUserListLoginPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904DD1E826096000D3D8F /* GFUserListLoginPopView.m */; };
+		7E9905001E826096000D3D8F /* GFUserListLoginPopViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904DE1E826096000D3D8F /* GFUserListLoginPopViewCell.h */; };
+		7E9905011E826096000D3D8F /* GFUserListLoginPopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904DF1E826096000D3D8F /* GFUserListLoginPopViewCell.m */; };
+		7E9905021E826096000D3D8F /* GFUserListLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904E01E826096000D3D8F /* GFUserListLoginView.h */; };
+		7E9905031E826096000D3D8F /* GFUserListLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904E11E826096000D3D8F /* GFUserListLoginView.m */; };
+		7E9905041E826096000D3D8F /* GFUserListLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904E21E826096000D3D8F /* GFUserListLoginViewController.h */; };
+		7E9905051E826096000D3D8F /* GFUserListLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904E31E826096000D3D8F /* GFUserListLoginViewController.m */; };
+		7E9905081E826096000D3D8F /* GFUserNameLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904E71E826096000D3D8F /* GFUserNameLoginView.h */; };
+		7E9905091E826096000D3D8F /* GFUserNameLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904E81E826096000D3D8F /* GFUserNameLoginView.m */; };
+		7E99050A1E826096000D3D8F /* GFUserNameLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904E91E826096000D3D8F /* GFUserNameLoginViewController.h */; };
+		7E99050B1E826096000D3D8F /* GFUserNameLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904EA1E826096000D3D8F /* GFUserNameLoginViewController.m */; };
+		7E99050C1E826096000D3D8F /* GFUserNameRegisterMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904EC1E826096000D3D8F /* GFUserNameRegisterMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E99050D1E826096000D3D8F /* GFUserNameRegisterMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904ED1E826096000D3D8F /* GFUserNameRegisterMediator.m */; };
+		7E99050E1E826096000D3D8F /* GFUserNameRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904EE1E826096000D3D8F /* GFUserNameRegisterView.h */; };
+		7E99050F1E826096000D3D8F /* GFUserNameRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904EF1E826096000D3D8F /* GFUserNameRegisterView.m */; };
+		7E9905101E826096000D3D8F /* GFUserNameRegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9904F01E826096000D3D8F /* GFUserNameRegisterViewController.h */; };
+		7E9905111E826096000D3D8F /* GFUserNameRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9904F11E826096000D3D8F /* GFUserNameRegisterViewController.m */; };
+		7E9905181E8268F7000D3D8F /* GFForgotPasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9905161E8268F7000D3D8F /* GFForgotPasswordView.h */; };
+		7E9905191E8268F7000D3D8F /* GFForgotPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9905171E8268F7000D3D8F /* GFForgotPasswordView.m */; };
+		7E99051C1E826905000D3D8F /* GFForgotPasswordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E99051A1E826905000D3D8F /* GFForgotPasswordViewController.h */; };
+		7E99051D1E826905000D3D8F /* GFForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E99051B1E826905000D3D8F /* GFForgotPasswordViewController.m */; };
+		7E9905211E82752D000D3D8F /* GFRetakePasswordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E99051F1E82752D000D3D8F /* GFRetakePasswordViewController.h */; };
+		7E9905221E82752D000D3D8F /* GFRetakePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9905201E82752D000D3D8F /* GFRetakePasswordViewController.m */; };
+		7E9905251E827538000D3D8F /* GFRetakePasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9905231E827538000D3D8F /* GFRetakePasswordView.h */; };
+		7E9905261E827538000D3D8F /* GFRetakePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9905241E827538000D3D8F /* GFRetakePasswordView.m */; };
+		7E99052A1E8277C9000D3D8F /* GFGetCaptchaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9905281E8277C9000D3D8F /* GFGetCaptchaView.h */; };
+		7E99052B1E8277C9000D3D8F /* GFGetCaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9905291E8277C9000D3D8F /* GFGetCaptchaView.m */; };
+		7E99052E1E8277D3000D3D8F /* GFGetCaptchaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E99052C1E8277D3000D3D8F /* GFGetCaptchaViewController.h */; };
+		7E99052F1E8277D3000D3D8F /* GFGetCaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E99052D1E8277D3000D3D8F /* GFGetCaptchaViewController.m */; };
+		7E9905331E828521000D3D8F /* GFChooseRetakeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9905311E828521000D3D8F /* GFChooseRetakeView.h */; };
+		7E9905341E828521000D3D8F /* GFChooseRetakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9905321E828521000D3D8F /* GFChooseRetakeView.m */; };
+		7E9905371E82852F000D3D8F /* GFChooseRetakeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9905351E82852F000D3D8F /* GFChooseRetakeViewController.h */; };
+		7E9905381E82852F000D3D8F /* GFChooseRetakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9905361E82852F000D3D8F /* GFChooseRetakeViewController.m */; };
+		7EA175921E7FE7750017F6B9 /* libGFModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC48341E7FD99B0051A680 /* libGFModel.a */; };
+		7EA175931E7FE7750017F6B9 /* libGFSDK_Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC48351E7FD99B0051A680 /* libGFSDK_Tools.a */; };
+		7EA175941E7FE7750017F6B9 /* libGFUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC48361E7FD99B0051A680 /* libGFUtil.a */; };
+		7EA175951E7FE7750017F6B9 /* libGFViewControllerSuite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC482F1E7FD9820051A680 /* libGFViewControllerSuite.a */; };
+		7EA175971E7FE7750017F6B9 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC48391E7FD99B0051A680 /* libMasonry.a */; };
+		7EA175981E7FE7750017F6B9 /* libPods-GFEntry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BA7F206CE5B292C5615D2E /* libPods-GFEntry.a */; };
+		7EA175991E7FE7750017F6B9 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC483B1E7FD99B0051A680 /* libSDWebImage.a */; };
+		7EA1759A1E7FE7750017F6B9 /* libToast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC483C1E7FD99B0051A680 /* libToast.a */; };
+		7ECC48121E7FA46E0051A680 /* GFEntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC48111E7FA46E0051A680 /* GFEntranceViewController.m */; };
+		7ECC48231E7FB3A30051A680 /* GFEntryStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECC48211E7FB3A30051A680 /* GFEntryStyle.h */; };
+		7ECC482A1E7FC3120051A680 /* GFCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC48291E7FBBBE0051A680 /* GFCommon.h */; };
+		7ECC484B1E7FE2D70051A680 /* GFEntranceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECC48491E7FE2D70051A680 /* GFEntranceView.h */; };
+		7ECC484C1E7FE2D70051A680 /* GFEntranceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC484A1E7FE2D70051A680 /* GFEntranceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EFE6A5A1E7BBDEE00AD85A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50BA7F206CE5B292C5615D2E /* libPods-GFEntry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GFEntry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E713DF5AAA15380BE0C40C6 /* Pods-GFEntry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFEntry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFEntry/Pods-GFEntry.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8E46571E836065009864B9 /* libDeviceUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDeviceUtil.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/DeviceUtil/libDeviceUtil.a"; sourceTree = "<group>"; };
+		7E8E46591E836068009864B9 /* libGFPersistence.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFPersistence.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/GFPersistence/libGFPersistence.a"; sourceTree = "<group>"; };
+		7E8E465B1E836091009864B9 /* libGFKeychain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFKeychain.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/GFKeychain/libGFKeychain.a"; sourceTree = "<group>"; };
+		7E8E465D1E836094009864B9 /* libGFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFNetworking.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/GFNetworking/libGFNetworking.a"; sourceTree = "<group>"; };
+		7E8E465F1E8362D8009864B9 /* libMMPlaceHolder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMPlaceHolder.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/MMPlaceHolder/libMMPlaceHolder.a"; sourceTree = "<group>"; };
+		7E8E46651E8393BD009864B9 /* GFEntryStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEntryStyle.m; sourceTree = "<group>"; };
+		7E9904CF1E826096000D3D8F /* GFAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFAgreementViewController.h; sourceTree = "<group>"; };
+		7E9904D01E826096000D3D8F /* GFAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFAgreementViewController.m; sourceTree = "<group>"; };
+		7E9904D21E826096000D3D8F /* GFMobilePhoneLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMobilePhoneLoginView.h; sourceTree = "<group>"; };
+		7E9904D31E826096000D3D8F /* GFMobilePhoneLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMobilePhoneLoginView.m; sourceTree = "<group>"; };
+		7E9904D41E826096000D3D8F /* GFMobilePhoneLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMobilePhoneLoginViewController.h; sourceTree = "<group>"; };
+		7E9904D51E826096000D3D8F /* GFMobilePhoneLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMobilePhoneLoginViewController.m; sourceTree = "<group>"; };
+		7E9904D71E826096000D3D8F /* GFTouristRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTouristRegisterView.h; sourceTree = "<group>"; };
+		7E9904D81E826096000D3D8F /* GFTouristRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTouristRegisterView.m; sourceTree = "<group>"; };
+		7E9904D91E826096000D3D8F /* GFTouristRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTouristRegisterViewController.h; sourceTree = "<group>"; };
+		7E9904DA1E826096000D3D8F /* GFTouristRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTouristRegisterViewController.m; sourceTree = "<group>"; };
+		7E9904DC1E826096000D3D8F /* GFUserListLoginPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserListLoginPopView.h; sourceTree = "<group>"; };
+		7E9904DD1E826096000D3D8F /* GFUserListLoginPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserListLoginPopView.m; sourceTree = "<group>"; };
+		7E9904DE1E826096000D3D8F /* GFUserListLoginPopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserListLoginPopViewCell.h; sourceTree = "<group>"; };
+		7E9904DF1E826096000D3D8F /* GFUserListLoginPopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserListLoginPopViewCell.m; sourceTree = "<group>"; };
+		7E9904E01E826096000D3D8F /* GFUserListLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserListLoginView.h; sourceTree = "<group>"; };
+		7E9904E11E826096000D3D8F /* GFUserListLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserListLoginView.m; sourceTree = "<group>"; };
+		7E9904E21E826096000D3D8F /* GFUserListLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserListLoginViewController.h; sourceTree = "<group>"; };
+		7E9904E31E826096000D3D8F /* GFUserListLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserListLoginViewController.m; sourceTree = "<group>"; };
+		7E9904E71E826096000D3D8F /* GFUserNameLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserNameLoginView.h; sourceTree = "<group>"; };
+		7E9904E81E826096000D3D8F /* GFUserNameLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserNameLoginView.m; sourceTree = "<group>"; };
+		7E9904E91E826096000D3D8F /* GFUserNameLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserNameLoginViewController.h; sourceTree = "<group>"; };
+		7E9904EA1E826096000D3D8F /* GFUserNameLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserNameLoginViewController.m; sourceTree = "<group>"; };
+		7E9904EC1E826096000D3D8F /* GFUserNameRegisterMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserNameRegisterMediator.h; sourceTree = "<group>"; };
+		7E9904ED1E826096000D3D8F /* GFUserNameRegisterMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserNameRegisterMediator.m; sourceTree = "<group>"; };
+		7E9904EE1E826096000D3D8F /* GFUserNameRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserNameRegisterView.h; sourceTree = "<group>"; };
+		7E9904EF1E826096000D3D8F /* GFUserNameRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserNameRegisterView.m; sourceTree = "<group>"; };
+		7E9904F01E826096000D3D8F /* GFUserNameRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFUserNameRegisterViewController.h; sourceTree = "<group>"; };
+		7E9904F11E826096000D3D8F /* GFUserNameRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFUserNameRegisterViewController.m; sourceTree = "<group>"; };
+		7E9905161E8268F7000D3D8F /* GFForgotPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFForgotPasswordView.h; sourceTree = "<group>"; };
+		7E9905171E8268F7000D3D8F /* GFForgotPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFForgotPasswordView.m; sourceTree = "<group>"; };
+		7E99051A1E826905000D3D8F /* GFForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFForgotPasswordViewController.h; sourceTree = "<group>"; };
+		7E99051B1E826905000D3D8F /* GFForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFForgotPasswordViewController.m; sourceTree = "<group>"; };
+		7E99051F1E82752D000D3D8F /* GFRetakePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRetakePasswordViewController.h; sourceTree = "<group>"; };
+		7E9905201E82752D000D3D8F /* GFRetakePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRetakePasswordViewController.m; sourceTree = "<group>"; };
+		7E9905231E827538000D3D8F /* GFRetakePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRetakePasswordView.h; sourceTree = "<group>"; };
+		7E9905241E827538000D3D8F /* GFRetakePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRetakePasswordView.m; sourceTree = "<group>"; };
+		7E9905281E8277C9000D3D8F /* GFGetCaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGetCaptchaView.h; sourceTree = "<group>"; };
+		7E9905291E8277C9000D3D8F /* GFGetCaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGetCaptchaView.m; sourceTree = "<group>"; };
+		7E99052C1E8277D3000D3D8F /* GFGetCaptchaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGetCaptchaViewController.h; sourceTree = "<group>"; };
+		7E99052D1E8277D3000D3D8F /* GFGetCaptchaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGetCaptchaViewController.m; sourceTree = "<group>"; };
+		7E9905311E828521000D3D8F /* GFChooseRetakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFChooseRetakeView.h; sourceTree = "<group>"; };
+		7E9905321E828521000D3D8F /* GFChooseRetakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFChooseRetakeView.m; sourceTree = "<group>"; };
+		7E9905351E82852F000D3D8F /* GFChooseRetakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFChooseRetakeViewController.h; sourceTree = "<group>"; };
+		7E9905361E82852F000D3D8F /* GFChooseRetakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFChooseRetakeViewController.m; sourceTree = "<group>"; };
+		7EA1757B1E7FE71D0017F6B9 /* libPods-GFEntry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GFEntry.a"; path = "Pods/../build/Debug-iphoneos/libPods-GFEntry.a"; sourceTree = "<group>"; };
+		7EA1757D1E7FE7410017F6B9 /* libGFLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFLogger.a; path = "/Users/huangjian/Documents/GitLab.com/GFEntry/GFEntryDemo/Pods/../build/Debug-iphoneos/GFLogger/libGFLogger.a"; sourceTree = "<absolute>"; };
+		7EA1757E1E7FE7410017F6B9 /* libGFModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFModel.a; path = "Pods/../build/Debug-iphoneos/GFModel/libGFModel.a"; sourceTree = "<group>"; };
+		7EA1757F1E7FE7410017F6B9 /* libGFSDK_Tools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFSDK_Tools.a; path = "Pods/../build/Debug-iphoneos/GFSDK_Tools/libGFSDK_Tools.a"; sourceTree = "<group>"; };
+		7EA175801E7FE7410017F6B9 /* libGFUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFUtil.a; path = "Pods/../build/Debug-iphoneos/GFUtil/libGFUtil.a"; sourceTree = "<group>"; };
+		7EA175811E7FE7410017F6B9 /* libGFViewControllerSuite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFViewControllerSuite.a; path = "Pods/../build/Debug-iphoneos/GFViewControllerSuite/libGFViewControllerSuite.a"; sourceTree = "<group>"; };
+		7EA175821E7FE7410017F6B9 /* libiConsole.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiConsole.a; path = "/Users/huangjian/Documents/GitLab.com/GFEntry/GFEntryDemo/Pods/../build/Debug-iphoneos/iConsole/libiConsole.a"; sourceTree = "<absolute>"; };
+		7EA175831E7FE7410017F6B9 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		7EA175841E7FE7410017F6B9 /* libPods-GFEntry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GFEntry.a"; path = "Pods/../build/Debug-iphoneos/libPods-GFEntry.a"; sourceTree = "<group>"; };
+		7EA175851E7FE7410017F6B9 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "Pods/../build/Debug-iphoneos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		7EA175861E7FE7410017F6B9 /* libToast.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libToast.a; path = "Pods/../build/Debug-iphoneos/Toast/libToast.a"; sourceTree = "<group>"; };
+		7ECC48101E7FA46E0051A680 /* GFEntranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEntranceViewController.h; sourceTree = "<group>"; };
+		7ECC48111E7FA46E0051A680 /* GFEntranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEntranceViewController.m; sourceTree = "<group>"; };
+		7ECC481C1E7FA8250051A680 /* libMZAppearance.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMZAppearance.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/MZAppearance/libMZAppearance.a"; sourceTree = "<group>"; };
+		7ECC481E1E7FA8270051A680 /* libMZFormSheetPresentationController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMZFormSheetPresentationController.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphonesimulator/MZFormSheetPresentationController/libMZFormSheetPresentationController.a"; sourceTree = "<group>"; };
+		7ECC48211E7FB3A30051A680 /* GFEntryStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEntryStyle.h; sourceTree = "<group>"; };
+		7ECC48291E7FBBBE0051A680 /* GFCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFCommon.h; sourceTree = "<group>"; };
+		7ECC482F1E7FD9820051A680 /* libGFViewControllerSuite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFViewControllerSuite.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFViewControllerSuite/libGFViewControllerSuite.a"; sourceTree = "<group>"; };
+		7ECC48311E7FD99B0051A680 /* libGFDemoChartView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFDemoChartView.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFDemoChartView/libGFDemoChartView.a"; sourceTree = "<group>"; };
+		7ECC48321E7FD99B0051A680 /* libGFLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFLogger.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFLogger/libGFLogger.a"; sourceTree = "<group>"; };
+		7ECC48331E7FD99B0051A680 /* libGFLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFLogger.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFLogger/libGFLogger.a"; sourceTree = "<group>"; };
+		7ECC48341E7FD99B0051A680 /* libGFModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFModel.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFModel/libGFModel.a"; sourceTree = "<group>"; };
+		7ECC48351E7FD99B0051A680 /* libGFSDK_Tools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFSDK_Tools.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFSDK_Tools/libGFSDK_Tools.a"; sourceTree = "<group>"; };
+		7ECC48361E7FD99B0051A680 /* libGFUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFUtil.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/GFUtil/libGFUtil.a"; sourceTree = "<group>"; };
+		7ECC48371E7FD99B0051A680 /* libiConsole.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiConsole.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/iConsole/libiConsole.a"; sourceTree = "<group>"; };
+		7ECC48381E7FD99B0051A680 /* libiConsole.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiConsole.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/iConsole/libiConsole.a"; sourceTree = "<group>"; };
+		7ECC48391E7FD99B0051A680 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		7ECC483A1E7FD99B0051A680 /* libPods-GFEntryDemo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GFEntryDemo.a"; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/libPods-GFEntryDemo.a"; sourceTree = "<group>"; };
+		7ECC483B1E7FD99B0051A680 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		7ECC483C1E7FD99B0051A680 /* libToast.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libToast.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/Toast/libToast.a"; sourceTree = "<group>"; };
+		7ECC48491E7FE2D70051A680 /* GFEntranceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFEntranceView.h; sourceTree = "<group>"; };
+		7ECC484A1E7FE2D70051A680 /* GFEntranceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFEntranceView.m; sourceTree = "<group>"; };
+		7EFE6A5C1E7BBDEE00AD85A9 /* libGFEntry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGFEntry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04EA4314647B27F55426327 /* Pods-GFEntry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFEntry.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFEntry/Pods-GFEntry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFE6A591E7BBDEE00AD85A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8E46601E8362D8009864B9 /* libMMPlaceHolder.a in Frameworks */,
+				7E8E465E1E836094009864B9 /* libGFNetworking.a in Frameworks */,
+				7E8E465C1E836091009864B9 /* libGFKeychain.a in Frameworks */,
+				7E8E465A1E836068009864B9 /* libGFPersistence.a in Frameworks */,
+				7E8E46581E836065009864B9 /* libDeviceUtil.a in Frameworks */,
+				7EA175921E7FE7750017F6B9 /* libGFModel.a in Frameworks */,
+				7EA175931E7FE7750017F6B9 /* libGFSDK_Tools.a in Frameworks */,
+				7EA175941E7FE7750017F6B9 /* libGFUtil.a in Frameworks */,
+				7EA175951E7FE7750017F6B9 /* libGFViewControllerSuite.a in Frameworks */,
+				7EA175971E7FE7750017F6B9 /* libMasonry.a in Frameworks */,
+				7EA175981E7FE7750017F6B9 /* libPods-GFEntry.a in Frameworks */,
+				7EA175991E7FE7750017F6B9 /* libSDWebImage.a in Frameworks */,
+				7EA1759A1E7FE7750017F6B9 /* libToast.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1652F0C8447F2DD759107F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E465F1E8362D8009864B9 /* libMMPlaceHolder.a */,
+				7E8E465D1E836094009864B9 /* libGFNetworking.a */,
+				7E8E465B1E836091009864B9 /* libGFKeychain.a */,
+				7E8E46591E836068009864B9 /* libGFPersistence.a */,
+				7E8E46571E836065009864B9 /* libDeviceUtil.a */,
+				7EA1757D1E7FE7410017F6B9 /* libGFLogger.a */,
+				7EA1757E1E7FE7410017F6B9 /* libGFModel.a */,
+				7EA1757F1E7FE7410017F6B9 /* libGFSDK_Tools.a */,
+				7EA175801E7FE7410017F6B9 /* libGFUtil.a */,
+				7EA175811E7FE7410017F6B9 /* libGFViewControllerSuite.a */,
+				7EA175821E7FE7410017F6B9 /* libiConsole.a */,
+				7EA175831E7FE7410017F6B9 /* libMasonry.a */,
+				7EA175841E7FE7410017F6B9 /* libPods-GFEntry.a */,
+				7EA175851E7FE7410017F6B9 /* libSDWebImage.a */,
+				7EA175861E7FE7410017F6B9 /* libToast.a */,
+				7EA1757B1E7FE71D0017F6B9 /* libPods-GFEntry.a */,
+				7ECC48311E7FD99B0051A680 /* libGFDemoChartView.a */,
+				7ECC48321E7FD99B0051A680 /* libGFLogger.a */,
+				7ECC48331E7FD99B0051A680 /* libGFLogger.a */,
+				7ECC48341E7FD99B0051A680 /* libGFModel.a */,
+				7ECC48351E7FD99B0051A680 /* libGFSDK_Tools.a */,
+				7ECC48361E7FD99B0051A680 /* libGFUtil.a */,
+				7ECC48371E7FD99B0051A680 /* libiConsole.a */,
+				7ECC48381E7FD99B0051A680 /* libiConsole.a */,
+				7ECC48391E7FD99B0051A680 /* libMasonry.a */,
+				7ECC483A1E7FD99B0051A680 /* libPods-GFEntryDemo.a */,
+				7ECC483B1E7FD99B0051A680 /* libSDWebImage.a */,
+				7ECC483C1E7FD99B0051A680 /* libToast.a */,
+				7ECC482F1E7FD9820051A680 /* libGFViewControllerSuite.a */,
+				7ECC481E1E7FA8270051A680 /* libMZFormSheetPresentationController.a */,
+				7ECC481C1E7FA8250051A680 /* libMZAppearance.a */,
+				50BA7F206CE5B292C5615D2E /* libPods-GFEntry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E9904CC1E826096000D3D8F /* GFAgreement */ = {
+			isa = PBXGroup;
+			children = (
+				7E9904CF1E826096000D3D8F /* GFAgreementViewController.h */,
+				7E9904D01E826096000D3D8F /* GFAgreementViewController.m */,
+			);
+			path = GFAgreement;
+			sourceTree = "<group>";
+		};
+		7E9904D11E826096000D3D8F /* GFMobilePhoneLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7E9904D21E826096000D3D8F /* GFMobilePhoneLoginView.h */,
+				7E9904D31E826096000D3D8F /* GFMobilePhoneLoginView.m */,
+				7E9904D41E826096000D3D8F /* GFMobilePhoneLoginViewController.h */,
+				7E9904D51E826096000D3D8F /* GFMobilePhoneLoginViewController.m */,
+			);
+			path = GFMobilePhoneLogin;
+			sourceTree = "<group>";
+		};
+		7E9904D61E826096000D3D8F /* GFTouristRegister */ = {
+			isa = PBXGroup;
+			children = (
+				7E9904D71E826096000D3D8F /* GFTouristRegisterView.h */,
+				7E9904D81E826096000D3D8F /* GFTouristRegisterView.m */,
+				7E9904D91E826096000D3D8F /* GFTouristRegisterViewController.h */,
+				7E9904DA1E826096000D3D8F /* GFTouristRegisterViewController.m */,
+			);
+			path = GFTouristRegister;
+			sourceTree = "<group>";
+		};
+		7E9904DB1E826096000D3D8F /* GFUserListLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7E9904DC1E826096000D3D8F /* GFUserListLoginPopView.h */,
+				7E9904DD1E826096000D3D8F /* GFUserListLoginPopView.m */,
+				7E9904DE1E826096000D3D8F /* GFUserListLoginPopViewCell.h */,
+				7E9904DF1E826096000D3D8F /* GFUserListLoginPopViewCell.m */,
+				7E9904E01E826096000D3D8F /* GFUserListLoginView.h */,
+				7E9904E11E826096000D3D8F /* GFUserListLoginView.m */,
+				7E9904E21E826096000D3D8F /* GFUserListLoginViewController.h */,
+				7E9904E31E826096000D3D8F /* GFUserListLoginViewController.m */,
+			);
+			path = GFUserListLogin;
+			sourceTree = "<group>";
+		};
+		7E9904E41E826096000D3D8F /* GFUserNameLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7E9904E71E826096000D3D8F /* GFUserNameLoginView.h */,
+				7E9904E81E826096000D3D8F /* GFUserNameLoginView.m */,
+				7E9904E91E826096000D3D8F /* GFUserNameLoginViewController.h */,
+				7E9904EA1E826096000D3D8F /* GFUserNameLoginViewController.m */,
+			);
+			path = GFUserNameLogin;
+			sourceTree = "<group>";
+		};
+		7E9904EB1E826096000D3D8F /* GFUserNameRegister */ = {
+			isa = PBXGroup;
+			children = (
+				7E9904EC1E826096000D3D8F /* GFUserNameRegisterMediator.h */,
+				7E9904ED1E826096000D3D8F /* GFUserNameRegisterMediator.m */,
+				7E9904EE1E826096000D3D8F /* GFUserNameRegisterView.h */,
+				7E9904EF1E826096000D3D8F /* GFUserNameRegisterView.m */,
+				7E9904F01E826096000D3D8F /* GFUserNameRegisterViewController.h */,
+				7E9904F11E826096000D3D8F /* GFUserNameRegisterViewController.m */,
+			);
+			path = GFUserNameRegister;
+			sourceTree = "<group>";
+		};
+		7E9905151E8268E3000D3D8F /* GFForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				7E99051A1E826905000D3D8F /* GFForgotPasswordViewController.h */,
+				7E99051B1E826905000D3D8F /* GFForgotPasswordViewController.m */,
+				7E9905161E8268F7000D3D8F /* GFForgotPasswordView.h */,
+				7E9905171E8268F7000D3D8F /* GFForgotPasswordView.m */,
+			);
+			path = GFForgotPassword;
+			sourceTree = "<group>";
+		};
+		7E99051E1E8274F0000D3D8F /* GFRetakePassword */ = {
+			isa = PBXGroup;
+			children = (
+				7E99051F1E82752D000D3D8F /* GFRetakePasswordViewController.h */,
+				7E9905201E82752D000D3D8F /* GFRetakePasswordViewController.m */,
+				7E9905231E827538000D3D8F /* GFRetakePasswordView.h */,
+				7E9905241E827538000D3D8F /* GFRetakePasswordView.m */,
+			);
+			path = GFRetakePassword;
+			sourceTree = "<group>";
+		};
+		7E9905271E8277B6000D3D8F /* GFGetCaptcha */ = {
+			isa = PBXGroup;
+			children = (
+				7E99052C1E8277D3000D3D8F /* GFGetCaptchaViewController.h */,
+				7E99052D1E8277D3000D3D8F /* GFGetCaptchaViewController.m */,
+				7E9905281E8277C9000D3D8F /* GFGetCaptchaView.h */,
+				7E9905291E8277C9000D3D8F /* GFGetCaptchaView.m */,
+			);
+			path = GFGetCaptcha;
+			sourceTree = "<group>";
+		};
+		7E9905301E828512000D3D8F /* GFChooseRetake */ = {
+			isa = PBXGroup;
+			children = (
+				7E9905351E82852F000D3D8F /* GFChooseRetakeViewController.h */,
+				7E9905361E82852F000D3D8F /* GFChooseRetakeViewController.m */,
+				7E9905311E828521000D3D8F /* GFChooseRetakeView.h */,
+				7E9905321E828521000D3D8F /* GFChooseRetakeView.m */,
+			);
+			path = GFChooseRetake;
+			sourceTree = "<group>";
+		};
+		7ECC480D1E7FA45D0051A680 /* GFEntrance */ = {
+			isa = PBXGroup;
+			children = (
+				7ECC48101E7FA46E0051A680 /* GFEntranceViewController.h */,
+				7ECC48111E7FA46E0051A680 /* GFEntranceViewController.m */,
+				7ECC48491E7FE2D70051A680 /* GFEntranceView.h */,
+				7ECC484A1E7FE2D70051A680 /* GFEntranceView.m */,
+			);
+			path = GFEntrance;
+			sourceTree = "<group>";
+		};
+		7EFE6A531E7BBDEE00AD85A9 = {
+			isa = PBXGroup;
+			children = (
+				7EFE6A5E1E7BBDEE00AD85A9 /* GFEntry */,
+				7EFE6A5D1E7BBDEE00AD85A9 /* Products */,
+				993DC00CB1BA80DE16D380BE /* Pods */,
+				1652F0C8447F2DD759107F92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFE6A5D1E7BBDEE00AD85A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE6A5C1E7BBDEE00AD85A9 /* libGFEntry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFE6A5E1E7BBDEE00AD85A9 /* GFEntry */ = {
+			isa = PBXGroup;
+			children = (
+				7ECC48291E7FBBBE0051A680 /* GFCommon.h */,
+				7ECC48211E7FB3A30051A680 /* GFEntryStyle.h */,
+				7E8E46651E8393BD009864B9 /* GFEntryStyle.m */,
+				7ECC480D1E7FA45D0051A680 /* GFEntrance */,
+				7E9904CC1E826096000D3D8F /* GFAgreement */,
+				7E9905151E8268E3000D3D8F /* GFForgotPassword */,
+				7E99051E1E8274F0000D3D8F /* GFRetakePassword */,
+				7E9905301E828512000D3D8F /* GFChooseRetake */,
+				7E9905271E8277B6000D3D8F /* GFGetCaptcha */,
+				7E9904D11E826096000D3D8F /* GFMobilePhoneLogin */,
+				7E9904D61E826096000D3D8F /* GFTouristRegister */,
+				7E9904DB1E826096000D3D8F /* GFUserListLogin */,
+				7E9904E41E826096000D3D8F /* GFUserNameLogin */,
+				7E9904EB1E826096000D3D8F /* GFUserNameRegister */,
+			);
+			path = GFEntry;
+			sourceTree = "<group>";
+		};
+		993DC00CB1BA80DE16D380BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E713DF5AAA15380BE0C40C6 /* Pods-GFEntry.debug.xcconfig */,
+				F04EA4314647B27F55426327 /* Pods-GFEntry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7ECC48161E7FA7740051A680 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9904FC1E826096000D3D8F /* GFTouristRegisterViewController.h in Headers */,
+				7E9905251E827538000D3D8F /* GFRetakePasswordView.h in Headers */,
+				7E9905331E828521000D3D8F /* GFChooseRetakeView.h in Headers */,
+				7E9905181E8268F7000D3D8F /* GFForgotPasswordView.h in Headers */,
+				7E99050C1E826096000D3D8F /* GFUserNameRegisterMediator.h in Headers */,
+				7E9904F41E826096000D3D8F /* GFAgreementViewController.h in Headers */,
+				7ECC484B1E7FE2D70051A680 /* GFEntranceView.h in Headers */,
+				7ECC48231E7FB3A30051A680 /* GFEntryStyle.h in Headers */,
+				7E9905211E82752D000D3D8F /* GFRetakePasswordViewController.h in Headers */,
+				7E99052E1E8277D3000D3D8F /* GFGetCaptchaViewController.h in Headers */,
+				7E99051C1E826905000D3D8F /* GFForgotPasswordViewController.h in Headers */,
+				7E9904FA1E826096000D3D8F /* GFTouristRegisterView.h in Headers */,
+				7E9904F81E826096000D3D8F /* GFMobilePhoneLoginViewController.h in Headers */,
+				7E9905081E826096000D3D8F /* GFUserNameLoginView.h in Headers */,
+				7E9905021E826096000D3D8F /* GFUserListLoginView.h in Headers */,
+				7E9904FE1E826096000D3D8F /* GFUserListLoginPopView.h in Headers */,
+				7E99050A1E826096000D3D8F /* GFUserNameLoginViewController.h in Headers */,
+				7E9905041E826096000D3D8F /* GFUserListLoginViewController.h in Headers */,
+				7E9904F61E826096000D3D8F /* GFMobilePhoneLoginView.h in Headers */,
+				7E99052A1E8277C9000D3D8F /* GFGetCaptchaView.h in Headers */,
+				7E9905101E826096000D3D8F /* GFUserNameRegisterViewController.h in Headers */,
+				7E99050E1E826096000D3D8F /* GFUserNameRegisterView.h in Headers */,
+				7E9905001E826096000D3D8F /* GFUserListLoginPopViewCell.h in Headers */,
+				7E9905371E82852F000D3D8F /* GFChooseRetakeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EFE6A5B1E7BBDEE00AD85A9 /* GFEntry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFE6A651E7BBDEE00AD85A9 /* Build configuration list for PBXNativeTarget "GFEntry" */;
+			buildPhases = (
+				432DA746ABFBAC9437A18A6B /* [CP] Check Pods Manifest.lock */,
+				7EFE6A581E7BBDEE00AD85A9 /* Sources */,
+				7EFE6A591E7BBDEE00AD85A9 /* Frameworks */,
+				7EFE6A5A1E7BBDEE00AD85A9 /* CopyFiles */,
+				095D1B892D20D65CE0A910D5 /* [CP] Copy Pods Resources */,
+				7ECC48161E7FA7740051A680 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFEntry;
+			productName = GFEntry;
+			productReference = 7EFE6A5C1E7BBDEE00AD85A9 /* libGFEntry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFE6A541E7BBDEE00AD85A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = huangjian;
+				TargetAttributes = {
+					7EFE6A5B1E7BBDEE00AD85A9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 44J728TVV6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EFE6A571E7BBDEE00AD85A9 /* Build configuration list for PBXProject "GFEntry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EFE6A531E7BBDEE00AD85A9;
+			productRefGroup = 7EFE6A5D1E7BBDEE00AD85A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFE6A5B1E7BBDEE00AD85A9 /* GFEntry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		095D1B892D20D65CE0A910D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFEntry/Pods-GFEntry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		432DA746ABFBAC9437A18A6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFE6A581E7BBDEE00AD85A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECC48121E7FA46E0051A680 /* GFEntranceViewController.m in Sources */,
+				7E9905381E82852F000D3D8F /* GFChooseRetakeViewController.m in Sources */,
+				7E9905191E8268F7000D3D8F /* GFForgotPasswordView.m in Sources */,
+				7E9905091E826096000D3D8F /* GFUserNameLoginView.m in Sources */,
+				7E9905111E826096000D3D8F /* GFUserNameRegisterViewController.m in Sources */,
+				7ECC482A1E7FC3120051A680 /* GFCommon.h in Sources */,
+				7E9904F91E826096000D3D8F /* GFMobilePhoneLoginViewController.m in Sources */,
+				7E9905031E826096000D3D8F /* GFUserListLoginView.m in Sources */,
+				7E9905221E82752D000D3D8F /* GFRetakePasswordViewController.m in Sources */,
+				7E9904F51E826096000D3D8F /* GFAgreementViewController.m in Sources */,
+				7E99050D1E826096000D3D8F /* GFUserNameRegisterMediator.m in Sources */,
+				7E9905011E826096000D3D8F /* GFUserListLoginPopViewCell.m in Sources */,
+				7E99052F1E8277D3000D3D8F /* GFGetCaptchaViewController.m in Sources */,
+				7E8E46661E8393BD009864B9 /* GFEntryStyle.m in Sources */,
+				7ECC484C1E7FE2D70051A680 /* GFEntranceView.m in Sources */,
+				7E99050B1E826096000D3D8F /* GFUserNameLoginViewController.m in Sources */,
+				7E9904FB1E826096000D3D8F /* GFTouristRegisterView.m in Sources */,
+				7E9904FF1E826096000D3D8F /* GFUserListLoginPopView.m in Sources */,
+				7E99052B1E8277C9000D3D8F /* GFGetCaptchaView.m in Sources */,
+				7E99051D1E826905000D3D8F /* GFForgotPasswordViewController.m in Sources */,
+				7E9905341E828521000D3D8F /* GFChooseRetakeView.m in Sources */,
+				7E99050F1E826096000D3D8F /* GFUserNameRegisterView.m in Sources */,
+				7E9904F71E826096000D3D8F /* GFMobilePhoneLoginView.m in Sources */,
+				7E9905051E826096000D3D8F /* GFUserListLoginViewController.m in Sources */,
+				7E9905261E827538000D3D8F /* GFRetakePasswordView.m in Sources */,
+				7E9904FD1E826096000D3D8F /* GFTouristRegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EFE6A631E7BBDEE00AD85A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EFE6A641E7BBDEE00AD85A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFE6A661E7BBDEE00AD85A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E713DF5AAA15380BE0C40C6 /* Pods-GFEntry.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44J728TVV6;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)Demo/Pods/../build/Debug-iphoneos/GFLogger",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFModel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFSDK_Tools",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFUtil",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFViewControllerSuite",
+					"$(PROJECT_DIR)Demo/Pods/../build/Debug-iphoneos/iConsole",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Masonry",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Toast",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7EFE6A671E7BBDEE00AD85A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04EA4314647B27F55426327 /* Pods-GFEntry.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44J728TVV6;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)Demo/Pods/../build/Debug-iphoneos/GFLogger",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFModel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFSDK_Tools",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFUtil",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFViewControllerSuite",
+					"$(PROJECT_DIR)Demo/Pods/../build/Debug-iphoneos/iConsole",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Masonry",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Toast",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFE6A571E7BBDEE00AD85A9 /* Build configuration list for PBXProject "GFEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFE6A631E7BBDEE00AD85A9 /* Debug */,
+				7EFE6A641E7BBDEE00AD85A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFE6A651E7BBDEE00AD85A9 /* Build configuration list for PBXNativeTarget "GFEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFE6A661E7BBDEE00AD85A9 /* Debug */,
+				7EFE6A671E7BBDEE00AD85A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFE6A541E7BBDEE00AD85A9 /* Project object */;
+}

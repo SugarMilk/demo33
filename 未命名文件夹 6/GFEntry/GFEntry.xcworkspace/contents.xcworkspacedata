@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:GFEntry/GFEntry.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GFEntry/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GFEntryDemo/GFEntryDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GFEntryDemo/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,63 @@
+PODS:
+  - DeviceUtil (2.0.3)
+  - GFKeychain (0.0.1)
+  - GFLogger (0.1.0):
+    - iConsole (~> 1.5.3)
+  - GFModel (0.0.1):
+    - DeviceUtil
+    - GFNetworking
+    - GFPersistence
+    - GFPersistenceConfig
+  - GFNetworking (0.0.2)
+  - GFPersistence (0.0.1):
+    - GFKeychain
+    - JSONKit (~> 1.5pre)
+    - XMLDictionary
+  - GFPersistenceConfig (0.0.1)
+  - GFSDK_Tools (0.2.0)
+  - GFUtil (0.0.1)
+  - GFViewControllerSuite (0.1.0-dev):
+    - GFLogger (= 0.1.0)
+    - GFSDK_Tools (= 0.2.0)
+    - Masonry
+    - SDWebImage
+    - Toast
+  - iConsole (1.5.3)
+  - JSONKit (1.5pre)
+  - Masonry (1.0.2)
+  - MMPlaceHolder (1.9)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Toast (3.1.0)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - GFModel
+  - GFUtil
+  - GFViewControllerSuite (= 0.1.0-dev)
+  - Masonry
+  - MMPlaceHolder
+
+SPEC CHECKSUMS:
+  DeviceUtil: bd9597d040b3960698b71f3c1b940c7143a06eae
+  GFKeychain: 70ba6ccf4bdd37cb1dc97443f1fc1311f3e3f4ba
+  GFLogger: ab13bed23c601be95b3ae12957b5b1c53a199a83
+  GFModel: eff3e6a246aa629639d22fc2a4c6ab81157cf00c
+  GFNetworking: bae5cd972e06726cef8d964008341a3354f5661d
+  GFPersistence: 42107c095151ffca49542abf776811acbb7b0b5d
+  GFPersistenceConfig: f02f35bc9be29d8616857669485c210d6ea90260
+  GFSDK_Tools: 5937c618c121cf6502001b504b18fdbb3bad7402
+  GFUtil: fa1b70471369bfbb92c080d68f2768aff242f4bc
+  GFViewControllerSuite: 7fc47bbc91772a3c99175aa640771ad03dc709fe
+  iConsole: 823d9b14ac90f0a2a4fc9bf6a973a03ba9c4c7eb
+  JSONKit: bae313ce6a6c444f40489a6c0b023f399888871f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MMPlaceHolder: 40212b9dfe8760134b1b2fce3232f0d46200178f
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 805f8fd4e832ee29f368cbd4f6afc38c94188b9c
+
+COCOAPODS: 1.2.0

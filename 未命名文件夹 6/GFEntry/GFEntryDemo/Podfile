@@ -1,0 +1,10 @@
+
+source 'http://gitlab.bojoy.net:9090/SDK_iOS_GameFriend/GameFriendSDKSpecs.git'
+source 'http://gitlab.bojoy.net:9090/SDK_iOS_Common/GFSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GFEntryDemo' do
+
+    pod 'GFDemoChartView', '0.3.1-dev'
+
+end

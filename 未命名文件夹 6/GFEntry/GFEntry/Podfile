@@ -1,0 +1,15 @@
+
+source 'http://gitlab.bojoy.net:9090/SDK_iOS_GameFriend/GameFriendSDKSpecs.git'
+source 'http://gitlab.bojoy.net:9090/SDK_iOS_Common/GFSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GFEntry' do
+    
+    pod 'Masonry'
+    pod 'MMPlaceHolder'
+
+    pod 'GFUtil'
+    pod 'GFModel'
+    pod 'GFViewControllerSuite', '0.1.0-dev'
+    
+end

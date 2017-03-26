@@ -1,0 +1,1 @@
+../../../GFModel/Pod/Classes/GFSDKConfig.h

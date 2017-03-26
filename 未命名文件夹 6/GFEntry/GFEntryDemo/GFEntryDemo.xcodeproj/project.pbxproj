@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EA1759B1E7FE7830017F6B9 /* libGFEntry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC481A1E7FA7D30051A680 /* libGFEntry.a */; };
+		7EA1759D1E7FE7970017F6B9 /* libGFDemoChartView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1759C1E7FE7970017F6B9 /* libGFDemoChartView.a */; };
+		7ECC482C1E7FCC090051A680 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC482B1E7FCC090051A680 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7ECC482E1E7FCC0D0051A680 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC482D1E7FCC0D0051A680 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7EFE6A761E7BC0D400AD85A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE6A751E7BC0D400AD85A9 /* main.m */; };
+		7EFE6A791E7BC0D400AD85A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE6A781E7BC0D400AD85A9 /* AppDelegate.m */; };
+		7EFE6A7C1E7BC0D400AD85A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE6A7B1E7BC0D400AD85A9 /* ViewController.m */; };
+		7EFE6A7F1E7BC0D400AD85A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFE6A7D1E7BC0D400AD85A9 /* Main.storyboard */; };
+		7EFE6A811E7BC0D400AD85A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFE6A801E7BC0D400AD85A9 /* Assets.xcassets */; };
+		7EFE6A841E7BC0D400AD85A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFE6A821E7BC0D400AD85A9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A1680C3F452EAB1EA9693AF /* Pods-GFEntryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFEntryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFEntryDemo/Pods-GFEntryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA1759C1E7FE7970017F6B9 /* libGFDemoChartView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFDemoChartView.a; path = "Pods/../build/Debug-iphoneos/GFDemoChartView/libGFDemoChartView.a"; sourceTree = "<group>"; };
+		7EB105F51E856759007DA536 /* GFUserNameRegisterMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFUserNameRegisterMediator.h; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-bcokcqluqnnmlvebatmahnsvwedp/Build/Products/Debug-iphonesimulator/usr/local/include/GFUserNameRegisterMediator.h"; sourceTree = "<group>"; };
+		7ECC481A1E7FA7D30051A680 /* libGFEntry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGFEntry.a; path = "../../../../Library/Developer/Xcode/DerivedData/GFEntry-cbfrsbqssromnfgnhpewwjomrxtv/Build/Products/Debug-iphoneos/libGFEntry.a"; sourceTree = "<group>"; };
+		7ECC482B1E7FCC090051A680 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7ECC482D1E7FCC0D0051A680 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EFE6A711E7BC0D400AD85A9 /* GFEntryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFEntryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFE6A751E7BC0D400AD85A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EFE6A771E7BC0D400AD85A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EFE6A781E7BC0D400AD85A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EFE6A7A1E7BC0D400AD85A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EFE6A7B1E7BC0D400AD85A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EFE6A7E1E7BC0D400AD85A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EFE6A801E7BC0D400AD85A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFE6A831E7BC0D400AD85A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EFE6A851E7BC0D400AD85A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66F6E41B1727A8650D8593B /* Pods-GFEntryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFEntryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFEntryDemo/Pods-GFEntryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BD1818B297CA59B06A2E3181 /* libPods-GFEntryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GFEntryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFE6A6E1E7BC0D400AD85A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA1759D1E7FE7970017F6B9 /* libGFDemoChartView.a in Frameworks */,
+				7EA1759B1E7FE7830017F6B9 /* libGFEntry.a in Frameworks */,
+				7ECC482E1E7FCC0D0051A680 /* Foundation.framework in Frameworks */,
+				7ECC482C1E7FCC090051A680 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ECC48181E7FA7AC0051A680 /* GFEntry */ = {
+			isa = PBXGroup;
+			children = (
+				7EB105F51E856759007DA536 /* GFUserNameRegisterMediator.h */,
+			);
+			name = GFEntry;
+			sourceTree = "<group>";
+		};
+		7EFE6A681E7BC0D400AD85A9 = {
+			isa = PBXGroup;
+			children = (
+				7ECC48181E7FA7AC0051A680 /* GFEntry */,
+				7EFE6A731E7BC0D400AD85A9 /* GFEntryDemo */,
+				7EFE6A721E7BC0D400AD85A9 /* Products */,
+				F4DDCE290B972DA6E9FA8445 /* Pods */,
+				C9B1DEF25F24DFE62056F01E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFE6A721E7BC0D400AD85A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE6A711E7BC0D400AD85A9 /* GFEntryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFE6A731E7BC0D400AD85A9 /* GFEntryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE6A771E7BC0D400AD85A9 /* AppDelegate.h */,
+				7EFE6A781E7BC0D400AD85A9 /* AppDelegate.m */,
+				7EFE6A7A1E7BC0D400AD85A9 /* ViewController.h */,
+				7EFE6A7B1E7BC0D400AD85A9 /* ViewController.m */,
+				7EFE6A7D1E7BC0D400AD85A9 /* Main.storyboard */,
+				7EFE6A801E7BC0D400AD85A9 /* Assets.xcassets */,
+				7EFE6A821E7BC0D400AD85A9 /* LaunchScreen.storyboard */,
+				7EFE6A851E7BC0D400AD85A9 /* Info.plist */,
+				7EFE6A741E7BC0D400AD85A9 /* Supporting Files */,
+			);
+			path = GFEntryDemo;
+			sourceTree = "<group>";
+		};
+		7EFE6A741E7BC0D400AD85A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE6A751E7BC0D400AD85A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B1DEF25F24DFE62056F01E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA1759C1E7FE7970017F6B9 /* libGFDemoChartView.a */,
+				7ECC482D1E7FCC0D0051A680 /* Foundation.framework */,
+				7ECC482B1E7FCC090051A680 /* UIKit.framework */,
+				7ECC481A1E7FA7D30051A680 /* libGFEntry.a */,
+				BD1818B297CA59B06A2E3181 /* libPods-GFEntryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DDCE290B972DA6E9FA8445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A1680C3F452EAB1EA9693AF /* Pods-GFEntryDemo.debug.xcconfig */,
+				B66F6E41B1727A8650D8593B /* Pods-GFEntryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFE6A701E7BC0D400AD85A9 /* GFEntryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFE6A881E7BC0D400AD85A9 /* Build configuration list for PBXNativeTarget "GFEntryDemo" */;
+			buildPhases = (
+				8CB81A19C031BB9432891445 /* [CP] Check Pods Manifest.lock */,
+				7EFE6A6D1E7BC0D400AD85A9 /* Sources */,
+				7EFE6A6E1E7BC0D400AD85A9 /* Frameworks */,
+				7EFE6A6F1E7BC0D400AD85A9 /* Resources */,
+				2020E05BDC98ADB05E1E2010 /* [CP] Embed Pods Frameworks */,
+				F2878A90E22FDD0D94EB672E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFEntryDemo;
+			productName = GFEntryDemo;
+			productReference = 7EFE6A711E7BC0D400AD85A9 /* GFEntryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFE6A691E7BC0D400AD85A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = huangjian;
+				TargetAttributes = {
+					7EFE6A701E7BC0D400AD85A9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 44J728TVV6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EFE6A6C1E7BC0D400AD85A9 /* Build configuration list for PBXProject "GFEntryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EFE6A681E7BC0D400AD85A9;
+			productRefGroup = 7EFE6A721E7BC0D400AD85A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFE6A701E7BC0D400AD85A9 /* GFEntryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFE6A6F1E7BC0D400AD85A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFE6A841E7BC0D400AD85A9 /* LaunchScreen.storyboard in Resources */,
+				7EFE6A811E7BC0D400AD85A9 /* Assets.xcassets in Resources */,
+				7EFE6A7F1E7BC0D400AD85A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2020E05BDC98ADB05E1E2010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFEntryDemo/Pods-GFEntryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB81A19C031BB9432891445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2878A90E22FDD0D94EB672E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFEntryDemo/Pods-GFEntryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFE6A6D1E7BC0D400AD85A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFE6A7C1E7BC0D400AD85A9 /* ViewController.m in Sources */,
+				7EFE6A791E7BC0D400AD85A9 /* AppDelegate.m in Sources */,
+				7EFE6A761E7BC0D400AD85A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EFE6A7D1E7BC0D400AD85A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFE6A7E1E7BC0D400AD85A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFE6A821E7BC0D400AD85A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFE6A831E7BC0D400AD85A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EFE6A861E7BC0D400AD85A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EFE6A871E7BC0D400AD85A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFE6A891E7BC0D400AD85A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1680C3F452EAB1EA9693AF /* Pods-GFEntryDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44J728TVV6;
+				INFOPLIST_FILE = GFEntryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFDemoChartView",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huangjian.GFEntryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EFE6A8A1E7BC0D400AD85A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66F6E41B1727A8650D8593B /* Pods-GFEntryDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44J728TVV6;
+				INFOPLIST_FILE = GFEntryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GFDemoChartView",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huangjian.GFEntryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFE6A6C1E7BC0D400AD85A9 /* Build configuration list for PBXProject "GFEntryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFE6A861E7BC0D400AD85A9 /* Debug */,
+				7EFE6A871E7BC0D400AD85A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFE6A881E7BC0D400AD85A9 /* Build configuration list for PBXNativeTarget "GFEntryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFE6A891E7BC0D400AD85A9 /* Debug */,
+				7EFE6A8A1E7BC0D400AD85A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFE6A691E7BC0D400AD85A9 /* Project object */;
+}

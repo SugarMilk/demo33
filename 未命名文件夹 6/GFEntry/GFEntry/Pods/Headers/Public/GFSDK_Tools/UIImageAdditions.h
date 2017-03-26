@@ -1,0 +1,1 @@
+../../../GFSDK_Tools/GFSDK_Tools/Classes/Additions/UIImageAdditions.h
